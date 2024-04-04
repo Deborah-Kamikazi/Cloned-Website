@@ -51,9 +51,32 @@ li a{
     font-weight: 700;
     font-style: normal;
     font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background-color: white;
+    height: 7vh;
+    width: 40vh;
+    border-radius: 50px;
+
+}
+.all{
+    background-color: white;
+    height: 15vh;
+    border-radius: 2rem;
     
 }
-.buttons{
+.button{
+    background-color: rgb(35, 35, 76);
+    width: 6vw;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 2rem;
+    display: flex;
     
-
 }
